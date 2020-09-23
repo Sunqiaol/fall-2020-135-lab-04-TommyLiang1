@@ -1,3 +1,11 @@
+/*
+Author: Tommy Liang
+Course: CSCI 135
+Instuctor: Mike Zamansky
+Assignment: Lab 04
+
+funcs.h has the initialization of each function so that it can be made public
+*/
 #pragma once
 
 std::string box(int, int);

@@ -1,3 +1,11 @@
+/*
+Author: Tommy Liang
+Course: CSCI 135
+Instuctor: Mike Zamansky
+Assignment: Lab 04
+
+main.cpp will call all the functions and print the output of each function call
+*/
 #include <iostream>
 
 #include "funcs.h"

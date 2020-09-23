@@ -1,3 +1,9 @@
+#Author: Tommy Liang\
+Course: CSCI 135\
+Instuctor: Mike Zamansky\
+Assignment: Lab 04
+
+#This is the Makefile for Lab 04 
 OBJECTS=main.o funcs.o
 CXXFLAGS=-Wall
 LDFLAGS=-lm

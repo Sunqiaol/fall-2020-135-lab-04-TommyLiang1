@@ -1,3 +1,11 @@
+/*
+Author: Tommy Liang
+Course: CSCI 135
+Instuctor: Mike Zamansky
+Assignment: Lab 04
+
+funcs.cpp contains the code for each function call
+*/
 #include <iostream>
 
 #include "funcs.h"
