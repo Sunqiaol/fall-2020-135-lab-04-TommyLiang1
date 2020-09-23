@@ -22,6 +22,7 @@ std::string checkerboard(int width, int height)
     for(int col = 0; col < width/2; col++)
     {
       if(row%2 == 0)
+      //Every even row starts with a "*" while every odd row starts with a " "
         result += "* ";
       else
         result += " *";
@@ -84,6 +85,10 @@ std::string upper(int length)
 std::string trapezoid(int width, int height)
 {
   std::string result = "";
+  /*
+    A trapezoid can't be made if the width is greater than half the height.
+    As the height increases by 1, the width decreases by 2, one star per side
+  */
   if(height > width/2)
   {
     result = "Impossible shape!\n";
@@ -111,6 +116,7 @@ std::string checkerboard3x3(int width, int height)
   std::string inputc = "*";
   for(int row = 0; row < height; row++)
   {
+    //Toggles the input every 3 rows
     if(row%3 == 0 && row != 0)
     {
       if(inputr == "*")
@@ -120,10 +126,12 @@ std::string checkerboard3x3(int width, int height)
     }
     for(int col = 0; col < width; col++)
     {
+      //We set the inputc to inputr every time we start on a new row
       if(col == 0)
         inputc = inputr;
       else
       {
+        //Toggles the input every 3 columns
         if(col%3 == 0)
         {
           if(inputc == "*")
