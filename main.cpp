@@ -41,4 +41,6 @@ int main()
   std::cout << "checkerboard3x3 15, 15\n" << checkerboard3x3(15, 15);
   std::cout << "checkerboard3x3 9, 5\n" << checkerboard3x3(12, 5);
   std::cout << "checkerboard3x3 2, 2\n" << checkerboard3x3(2, 2);
+
+  return 0;
 }
